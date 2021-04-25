@@ -4,8 +4,8 @@
 
     Se a imagem não mais existir no Docker Hub:
 
-    a. Gerar a imagem: 
-    
+        Gerar a imagem: 
+
         a. entrar no diretorio goland:
 
             cd goland
