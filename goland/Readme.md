@@ -1,4 +1,4 @@
-1. Executar o Palicatiovo GO
+1. Executar o Aplicativo GO
 
     docker run michelgsoares/codeeducation
 
