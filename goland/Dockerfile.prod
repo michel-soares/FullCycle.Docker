@@ -1,0 +1,8 @@
+FROM scratch
+
+WORKDIR /usr/src/app
+
+COPY ./main  /usr/src/app
+
+ENTRYPOINT [ "/usr/src/app/main" ]
+
