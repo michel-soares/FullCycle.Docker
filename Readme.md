@@ -1,4 +1,5 @@
-1. Rodar: 
+1. Rodar:
+ 
     docker-compose up -d
     
     ou
