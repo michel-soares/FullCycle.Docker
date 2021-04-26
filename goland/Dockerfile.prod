@@ -1,8 +1,16 @@
+FROM golang as builder
+
+WORKDIR /usr/src/app
+
+COPY ./main.go .
+
+RUN go build main.go
+
 FROM scratch
 
 WORKDIR /usr/src/app
 
-COPY ./main  /usr/src/app
+COPY --from=builder /usr/src/app/main  /usr/src/app
 
 ENTRYPOINT [ "/usr/src/app/main" ]
 
